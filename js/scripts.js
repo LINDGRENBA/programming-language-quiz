@@ -11,17 +11,17 @@ $(document).ready(function() {
 
     // FUNCTIONS TO SHOW RESULTS
     let showCSharp = function() {
-      $(".c-sharp").show();
+      $(".c-sharp").fadeIn();
       $(".python").hide();
       $(".ruby").hide();
     };
     let showRuby = function() {
-      $(".ruby").show();
+      $(".ruby").fadeIn();
       $(".python").hide();
       $(".c-sharp").hide();
     };
     let showPython = function() {
-      $(".python").show();
+      $(".python").fadeIn();
       $(".ruby").hide();
       $(".c-sharp").hide();
     };
@@ -34,7 +34,7 @@ $(document).ready(function() {
       showPython();
     } else if(projectTypeInput === "windows" && cityInput === "seattle" && salaryInput === "salary-not-important") {
       showCSharp();
-    } else if(salaryInput === "salary-med-important" && cityInput === "new-york" employerTypeInput === "startup") {
+    } else if(salaryInput === "salary-med-important" && cityInput === "new-york" &&employerTypeInput === "startup") {
       showRuby();
     } else {
       showPython();
@@ -45,4 +45,7 @@ $(document).ready(function() {
   });
 });
 
-//start 6:32   end: 
+//start 6:32   end: 8:00
+
+// 1 hour 30 min + 2 hours 15 min already done = total of 3 hours 45 min 
+// 4 hours 15 min left 

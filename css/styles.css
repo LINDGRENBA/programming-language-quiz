@@ -11,3 +11,11 @@ div.form-group, .results {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.btn {
+  margin-bottom: 20px;
+}
+
+.ruby, .python, .c-sharp {
+  display: none;
+}
