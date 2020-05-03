@@ -36,6 +36,10 @@ $(document).ready(function() {
       showCSharp();
     } else if(salaryInput === "salary-med-important" && cityInput === "new-york" &&employerTypeInput === "startup") {
       showRuby();
+    } else if(projectTypeInput === "windows" && cityInput === "seattle" && employerTypeInput === "startup") {
+      showCSharp();
+    } else if(projectTypeInput === "arduino-pi" && cityInput === "seattle" && spiritAnimalInput === "owl") {
+      showRuby();
     } else {
       showPython();
     }
@@ -45,7 +49,5 @@ $(document).ready(function() {
   });
 });
 
-//start 6:32   end: 8:00
 
-// 1 hour 30 min + 2 hours 15 min already done = total of 3 hours 45 min 
-// 4 hours 15 min left 
+// 4 hours left 
