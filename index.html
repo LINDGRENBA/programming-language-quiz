@@ -23,12 +23,12 @@
         <h2>Questions</h2>
 
         <div class="form-group">
-          <label for="name">Your first name:</label>
+          <label for="name">Your first name</label>
           <input type="text" id="name" class="form-control" placeholder="Joe">
         </div>
 
         <div class="form-group grid-item">
-          <label for="project-type">Which type of work sounds most interesting to you?</label>
+          <label for="project-type">Q1: Which type of work sounds most interesting to you?</label>
           <select name="projects" id="project-type" class="form-control">
             <option value="machine-ai">Machine Learning and Artificial Intelligence</option>
             <option value="arduino-pi">Creating applications for Arduino and Raspberry Pi</option>
@@ -37,7 +37,7 @@
         </div>
 
         <div class="form-group grid-item">
-          <label for="salary">How important is Salary to you</label>
+          <label for="salary">Q2: How important is Salary to you</label>
           <select name="salary" id="salary"class="form-control">
             <option value="salary-very-important">Very important</option>
             <option value="salary-med-important">Important, but not the only thing that matters</option>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="form-group radio">
-          <h5>In which city would you be most interested in living?</h5>
+          <h5>Q3: In which city would you be most interested in living?</h5>
           <label for="new-york">
             <input type="radio" name="city" id="new-york"value="new-york" checked>
             New York
@@ -58,7 +58,7 @@
         </div>
 
         <div class="form-group radio">
-          <h5>For which type of employer would you prefer to work?</h5>
+          <h5>Q4: For which type of employer would you prefer to work?</h5>
           <label for="startup">
             <input type="radio" name="employer" id="startup"value="startup">
             A start up
@@ -70,8 +70,12 @@
         </div>
 
         <div class="form-group">
-          <label for="spirit-animal">Which is most likely your spirit animal?</label>
-          <select name="spirit-animal" id="spirit-animal" class="form-control"></select>
+          <label for="spirit-animal">Q5: Which is most likely your spirit animal?</label>
+          <select name="spirit-animal" id="spirit-animal" class="form-control">
+            <option value="snake">A snake</option>
+            <option value="unicorn">A unicorn</option>
+            <option value="owl">An owl</option>
+          </select>
         </div>
 
         <button class="btn" type="submit">Submit</button>

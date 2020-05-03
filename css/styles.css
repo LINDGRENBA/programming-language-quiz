@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+div.form-group, .results {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
