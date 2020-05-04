@@ -28,11 +28,6 @@ header {
   box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
-/* img {
-  max-width: 100%;
-  height: auto;
-} */
-
 .amatic-sc {
   font-family: 'Amatic SC', cursive;
 }
@@ -50,6 +45,10 @@ h5 {
   font-weight: bold;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1em;
+}
+
+#quiz-form {
+  margin-top: 50px;
 }
 
 div.form-group {
