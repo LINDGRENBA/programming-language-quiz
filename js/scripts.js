@@ -50,6 +50,7 @@ $(document).ready(function() {
 });
 
 
-// 4 hours left 
+// 3 hours 15 minutes left 
 
-// start 11:25  end  
+// start 11:25  end  12:08
+// start  2:55  end

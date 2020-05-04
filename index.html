@@ -24,60 +24,80 @@
         <h2 class="amatic-sc">Questions</h2>
         <hr>
 
-        <div class="form-group">
-          <label for="name">Your first name:</label>
-          <input type="text" id="name" class="form-control" placeholder="Joe">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="name">Your first name:</label>
+              <input type="text" id="name" class="form-control" placeholder="Joe">
+            </div>
+          </div>
+        </div>
+          
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group grid-item">
+              <label for="project-type">Q1: Which type of work sounds most interesting to you?</label>
+              <select name="projects" id="project-type" class="form-control">
+                <option value="machine-ai">Machine Learning and Artificial Intelligence</option>
+                <option value="arduino-pi">Creating applications for Arduino and Raspberry Pi</option>
+                <option value="windows">Creating Windows applications</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group grid-item">
+              <label for="salary">Q2: How important is Salary to you</label>
+              <select name="salary" id="salary" class="form-control">
+                <option value="salary-very-important">Very important</option>
+                <option value="salary-med-important">Important, but not the only thing that matters</option>
+                <option value="salary-not-important">I don't care how much money I'm making as long as I enjoy whatI do for a living.</option>
+              </select>
+            </div>
+          </div>
         </div>
 
-        <div class="form-group grid-item">
-          <label for="project-type">Q1: Which type of work sounds most interesting to you?</label>
-          <select name="projects" id="project-type" class="form-control">
-            <option value="machine-ai">Machine Learning and Artificial Intelligence</option>
-            <option value="arduino-pi">Creating applications for Arduino and Raspberry Pi</option>
-            <option value="windows">Creating Windows applications</option>
-          </select>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group radio grid-item">
+              <h5>Q3: In which city would you be most interested in living?</h5>
+              <label for="new-york">
+                <input type="radio" name="city" id="new-york" value="new-york" checked>
+                New York
+              </label>
+              <label for="seattle">
+                <input type="radio" name="city" id="seattle" value="seattle">
+                Seattle
+              </label>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-group radio grid-item">
+              <h5>Q4: For which type of employer would you prefer to work?</h5>
+              <label for="startup">
+                <input type="radio" name="employer" id="startup" value="startup" checked>
+                A start up
+              </label>
+              <label for="corporate">
+                <input type="radio" name="employer" id="corporate" value="corporate">
+                A large corporation
+              </label>
+            </div>
+          </div>
         </div>
 
-        <div class="form-group grid-item">
-          <label for="salary">Q2: How important is Salary to you</label>
-          <select name="salary" id="salary" class="form-control">
-            <option value="salary-very-important">Very important</option>
-            <option value="salary-med-important">Important, but not the only thing that matters</option>
-            <option value="salary-not-important">I don't care how much money I'm making as long as I enjoy whatI do for a living.</option>
-          </select>
-        </div>
-
-        <div class="form-group radio grid-item">
-          <h5>Q3: In which city would you be most interested in living?</h5>
-          <label for="new-york">
-            <input type="radio" name="city" id="new-york" value="new-york" checked>
-            New York
-          </label>
-          <label for="seattle">
-            <input type="radio" name="city" id="seattle" value="seattle">
-            Seattle
-          </label>
-        </div>
-
-        <div class="form-group radio grid-item">
-          <h5>Q4: For which type of employer would you prefer to work?</h5>
-          <label for="startup">
-            <input type="radio" name="employer" id="startup" value="startup" checked>
-            A start up
-          </label>
-          <label for="corporate">
-            <input type="radio" name="employer" id="corporate" value="corporate">
-            A large corporation
-          </label>
-        </div>
-
-        <div class="form-group grid-item">
-          <label for="spirit-animal">Q5: Which is most likely your spirit animal?</label>
-          <select name="spirit-animal" id="spirit-animal" class="form-control">
-            <option value="snake">A snake</option>
-            <option value="unicorn">A unicorn</option>
-            <option value="owl">An owl</option>
-          </select>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group grid-item">
+              <label for="spirit-animal">Q5: Which is most likely your spirit animal?</label>
+              <select name="spirit-animal" id="spirit-animal" class="form-control">
+                <option value="snake">A snake</option>
+                <option value="unicorn">A unicorn</option>
+                <option value="owl">An owl</option>
+              </select>
+            </div>
+          </div>
         </div>
 
         <button class="btn grid-item" type="submit">Submit</button>
