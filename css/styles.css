@@ -9,6 +9,30 @@ body {
   font-size: 2em;
 }
 
+header {
+  padding: 0 100px;
+  background: url(../img/computer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.image {
+  position: relative;
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(255,255,255,.9);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+
 .amatic-sc {
   font-family: 'Amatic SC', cursive;
 }
