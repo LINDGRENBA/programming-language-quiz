@@ -2,20 +2,90 @@
   box-sizing: border-box;
 }
 
-h5 {
-  font-weight: bold;
+body {
+  background-color: #f5cac3;
+  color: #52796f;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2em;
 }
 
-div.form-group, .results {
+.amatic-sc {
+  font-family: 'Amatic SC', cursive;
+}
+
+.header, .results {
+  line-height: 2em;
+}
+
+.side-note {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+h5 {
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1em;
+}
+
+div.form-group {
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+.results {
+  border: 1px solid #84a59d;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
 .btn {
   margin-bottom: 20px;
+  background-color: #84a59d;
+  color: #f7ede2;
+}
+
+.radio label {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+h4.amatic-sc {
+  font-size: 1.5em;
 }
 
 .ruby, .python, .c-sharp {
   display: none;
 }
+
+a:link {
+  color: #f28482;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #f28482;
+}
+
+a:hover {
+  color: #f28482;
+}
+
+a:active {
+  color: #f6bd60;
+}
+
+
+
+/* COLOR PALLATE
+/* HEX */
+/* $color1: #f6bd60ff; (active color for Python results link)
+$color2: #f7ede2ff; (button text)
+$color3: #f5cac3ff; (background color)
+$color4: #84a59dff; (button background, results border)
+#52796F (text color)
+$color5: #f28482ff; (link, visited and hover color for Python result link)  
+*/
